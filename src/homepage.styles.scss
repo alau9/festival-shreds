@@ -1,0 +1,49 @@
+.homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3em 2em;
+}
+
+.directory-menu {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.menu-item {
+  min-width: 45%;
+  height: 23em;
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  margin: 0 0.5em 1em;
+}
+
+.title {
+  color: rgb(0, 132, 255);
+  font-size: 2rem;
+}
+
+.banner {
+    width: 100vw;
+    height: 13rem;
+    background-color: rgb(136, 244, 248);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    .content{
+        font-size: 2em;
+    }
+}
+
+#digital-gift-card{
+    height: 23rem;
+    display: flex;
+    align-items: center;
+}
