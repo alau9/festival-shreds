@@ -1,0 +1,12 @@
+.menu-item {
+    min-width: 45%;
+    height: 23em;
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    margin: 0 0.5em 1em;
+    background-position: center;
+    background-size: cover;
+  }
