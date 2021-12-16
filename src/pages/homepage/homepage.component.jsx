@@ -20,8 +20,8 @@ const HomePage = () => (
     </div>
     <div className="banner">
       <div className="content">
-        <span>FREE SHIPPING ON SELECTED PRODUCSTS!</span>
-        <h1 className="title">CHECKT IT OUT</h1>
+        <span>FREE SHIPPING ON SELECTED PRODUCTS!</span>
+        <h1 className="title">CHECK IT OUT</h1>
       </div>
     </div>
     </div>
