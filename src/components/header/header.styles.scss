@@ -1,15 +1,46 @@
 .header {
     height: 10rem;
     width: 100%;
-
-   
     margin-bottom: 25px;
-  
+
+  .header-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+    // .right-side{
+    //   display: flex;
+    //   justify-content: flex-end;
+      
+    // }
+
+    
+    .left-side{
+      width: 20vw;
+      display:flex;
+      margin-left: 2rem;
+    }
+
+    .right-side{
+      display: flex;
+      width: 20vw;
+      justify-content: end;
+      
+      margin-right: 2rem;
+
+      span{
+        margin: 1rem;
+      }
+
+    }
+
     .logo-container {
       height: 100%;
-      width: 100vw;
+      width: 80vw;
       display: flex;
       justify-content: center;
+
     }
   
     .options {
