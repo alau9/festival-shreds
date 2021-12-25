@@ -26,8 +26,15 @@
       display: flex;
       width: 20vw;
       justify-content: end;
-      
       margin-right: 2rem;
+
+      #myDropdown{
+        border: .1rem solid lightgray;
+      }
+
+      .dropdown{
+        display: flex;
+      }
 
       span{
         margin: 1rem;
@@ -53,3 +60,13 @@
       }
     }
   }
+
+  li{
+    list-style: none;
+  }
+  
+  ul{
+    padding: 0;
+  }
+
+
