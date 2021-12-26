@@ -1,72 +1,73 @@
 .header {
-    height: 10rem;
-    width: 100%;
-    margin-bottom: 25px;
+  height: 10rem;
+  width: 100%;
+  margin-bottom: 25px;
 
-  .header-header{
+  .header-header {
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-    // .right-side{
-    //   display: flex;
-    //   justify-content: flex-end;
-      
-    // }
+  // .right-side{
+  //   display: flex;
+  //   justify-content: flex-end;
 
-    
-    .left-side{
-      width: 20vw;
-      display:flex;
-      margin-left: 2rem;
-    }
+  // }
 
-    .right-side{
+  .left-side {
+    width: 20vw;
+    display: flex;
+    margin-left: 2rem;
+  }
+
+  .right-side {
+    display: flex;
+    width: 20vw;
+    justify-content: end;
+    margin-right: 2rem;
+
+    .account-but {
+      width: 4rem;
+      height: 3rem;
+      position: relative;
       display: flex;
-      width: 20vw;
-      justify-content: end;
-      margin-right: 2rem;
-
-      #myDropdown{
-        border: .1rem solid lightgray;
-      }
-
-      .dropdown{
-        display: flex;
-      }
-
-      span{
-        margin: 1rem;
-      }
-
-    }
-
-    .logo-container {
-      height: 100%;
-      width: 80vw;
-      display: flex;
+      align-items: center;
       justify-content: center;
-
+      cursor: pointer;
+      margin-right: 0rem;
     }
-  
-    .options {
-      height: 50%;
+    .dropdown {
       display: flex;
-      justify-content: center;
-  
-      .option {
-        padding: 10px 15px;
-      }
+    }
+
+    span {
+      margin: 1rem;
     }
   }
 
-  li{
-    list-style: none;
-  }
-  
-  ul{
-    padding: 0;
+  .logo-container {
+    height: 100%;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
   }
 
+  .options {
+    height: 50%;
+    display: flex;
+    justify-content: center;
 
+    .option {
+      padding: 10px 15px;
+    }
+  }
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  padding: 0;
+}

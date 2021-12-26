@@ -8,35 +8,35 @@ import { ReactComponent as Logo } from "../../assets/festival-shreds.svg";
 import { signInWithGoogle } from "../../firebase/firebase.utils";
 
 import "./header.styles.scss";
+import CartIcon from "../cart-icon/cart-icon.component";
+import CartDropdown from "../cart-dropdown/cart-dropdown.component";
+import AccountButton from "../account-button/account-button.component";
+import AccountDropdown from "../account-dropdown/account-dropdown.component";
 
-const Header = ({ currentUser }) => (
+const Header = ({ currentUser, hidden }) => (
   <div className="header">
     <div className="header-header">
       <div className="left-side">Search</div>
       <Link to="/" className="logo-container">
         <Logo className="logo" />
       </Link>
+      {currentUser ? (
       <div className="right-side">
-        {currentUser ? (
           <div className="dropdown">
-            <span>Account</span>
-            <ul id="myDropdown" className="dropdown-content">
-              <li>My Orders</li>
-              <li>View Profile</li>
-              <li>My Wishlist</li>
-              <li>Edit Profile</li>
-              <li onClick={() => auth.signOut()}>Logout</li>
-            </ul>
-          </div>
-        ) : (
-          <div className="dropdown">
-            {" "}
-            <span onClick={signInWithGoogle}>Account</span>
-          </div>
-        )}
-
-        <span>Cart</span>
+            <AccountButton/>
+          </div> 
+          <CartIcon/>       
       </div>
+        ) : (
+        <div className="right-side">
+          <div className="dropdown">
+            <div className="account-but" onClick={signInWithGoogle}>Sign In</div>
+          </div>
+          <CartIcon/>
+        </div>
+        )}
+          {hidden ? null :
+            <AccountDropdown />}  
     </div>
     <div className="options">
       <Link className="option" to="/shop">
@@ -64,8 +64,9 @@ const Header = ({ currentUser }) => (
   </div>
 );
 
-const mapStateToProps = state =>({
-  currentUser: state.user.currentUser
+const mapStateToProps = ({user: {currentUser },   account:{ hidden }}) =>({
+  currentUser,
+  hidden
 })
 
 export default connect(mapStateToProps)(Header);
