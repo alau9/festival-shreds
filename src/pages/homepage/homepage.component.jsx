@@ -1,4 +1,5 @@
 import React from "react";
+import CustomButton from "../../components/custom-button/custom-button.component";
 
 import Directory from "../../components/directory/directory.component";
 
@@ -10,7 +11,7 @@ const HomePage = () => (
     <div className="banner">
       <div className="content">
         <span>FREE $100 GIFT CARD</span>
-        <h1 className="title">ENTER NOW</h1>
+        <h1 className="title"><CustomButton>ENTER NOW</CustomButton></h1>
       </div>
     </div>
     <div id='digital-gift-card'>
@@ -21,7 +22,7 @@ const HomePage = () => (
     <div className="banner">
       <div className="content">
         <span>FREE SHIPPING ON SELECTED PRODUCTS!</span>
-        <h1 className="title">CHECK IT OUT</h1>
+        <h1 className="title"><CustomButton>CHECK IT OUT</CustomButton></h1>
       </div>
     </div>
     </div>

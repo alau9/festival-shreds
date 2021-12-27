@@ -2,14 +2,15 @@
     width: auto;
     height: auto;
     background-color: white;
-    color: rgb(142, 187, 224);
-    border: .1rem solid rgb(142, 208, 224);
+    color: rgb(142, 168, 224);
+    border: .1rem solid rgb(142, 168, 224);
     font-size: 1rem;
     border-radius: 2rem;
     padding: 1rem 1.75rem;
+    text-align: center;
 
     &:hover{
-        background-color: rgb(142, 208, 224);
+        background-color: rgb(142, 168, 224);
         color: white;
     }
 }
