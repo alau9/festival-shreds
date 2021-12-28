@@ -9,7 +9,7 @@ import { signInWithGoogle } from "../../firebase/firebase.utils";
 
 import "./header.styles.scss";
 import CartIcon from "../cart-icon/cart-icon.component";
-import CartDropdown from "../cart-dropdown/cart-dropdown.component";
+
 import AccountButton from "../account-button/account-button.component";
 import AccountDropdown from "../account-dropdown/account-dropdown.component";
 
