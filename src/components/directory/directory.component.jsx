@@ -1,5 +1,7 @@
 import React from "react";
 
+import { useNavigate } from 'react-router';
+
 import MenuItem from "../menu-item/menu-item.component";
 import "./directory.styles.scss"
 
@@ -43,7 +45,7 @@ class Directory extends React.Component {
             return(
                 <div className="directory-menu">
                     {
-                        this.state.sections.map(({title, imageUrls, id}) => (
+                        this.state.sections.map(({ imageUrls, id}) => (
                             <MenuItem key={id} imageUrl={imageUrls} />
                         ))
                     }
