@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { connect } from 'react-redux'
-
+import { createStructuredSelector } from "reselect";
+import { selectAccountHidden } from "../../redux/account/account.selector";
 import { auth } from "../../firebase/firebase.utils";
 
 import { ReactComponent as Logo } from "../../assets/festival-shreds.svg";
@@ -9,7 +10,7 @@ import { signInWithGoogle } from "../../firebase/firebase.utils";
 
 import "./header.styles.scss";
 import CartIcon from "../cart-icon/cart-icon.component";
-
+import { selectCurrentUser } from "../../redux/user/user.selector";
 import AccountButton from "../account-button/account-button.component";
 import AccountDropdown from "../account-dropdown/account-dropdown.component";
 
@@ -64,9 +65,9 @@ const Header = ({ currentUser, hidden }) => (
   </div>
 );
 
-const mapStateToProps = ({user: {currentUser },   account:{ hidden }}) =>({
-  currentUser,
-  hidden
+const mapStateToProps = createStructuredSelector({
+  currentUser: selectCurrentUser,
+  hidden: selectAccountHidden
 })
 
 export default connect(mapStateToProps)(Header);

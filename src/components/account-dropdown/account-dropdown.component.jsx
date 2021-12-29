@@ -3,6 +3,7 @@ import "./account-dropdown.styles.scss";
 import { connect } from 'react-redux' 
 import { auth } from "../../firebase/firebase.utils";
 import { toggleAccountHidden } from "../../redux/account/account.action";
+import { createStructuredSelector } from "reselect";
 
 const AccountDropdown = ({toggleAccountHidden}) => (
   <div>
