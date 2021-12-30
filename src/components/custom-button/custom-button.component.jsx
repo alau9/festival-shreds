@@ -8,6 +8,7 @@ const CustomButton = ({
   }) => (
     <button
       className="custom-button"
+      
       {...otherProps}
     >
       {children}

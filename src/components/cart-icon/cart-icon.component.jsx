@@ -15,7 +15,7 @@ const CartIcon = ( {itemCount} ) => {
         navigate('checkout');
 }} > 
         <ShoppingIcon className='shopping-icon'/>
-        <span className="item-count">{itemCount}</span>
+        <span className="item-count">{itemCount} </span>
     </div>
 )}
 
