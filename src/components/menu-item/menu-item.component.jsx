@@ -6,7 +6,7 @@ import CustomButton from "../custom-button/custom-button.component";
 
 
 
-const MenuItem = ({ imageUrl, linkUrl }) => {
+const MenuItem = ({ title, imageUrl, size, linkUrl }) => {
     const navigate = useNavigate()
 
     return (

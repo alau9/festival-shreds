@@ -23,6 +23,7 @@ const Header = ({ currentUser, hidden }) => (
       <Link to="/" className="logo-container">
         <Logo className="logo" />
       </Link>
+      
       {currentUser ? (
       <div className="right-side">
           <div className="dropdown">

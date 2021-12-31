@@ -9,13 +9,14 @@ import { changeShopParams } from '../../redux/shop/shop.actions'
  
 import './collection.styles.scss'
  
+
 const CollectionPage = ({ collection, changeParams }) => {
   let params = useParams();
   const { title, items } = collection;
  
-  useEffect(() => {
-    changeParams(params.collectionId);
-  });
+  useEffect(() => 
+    changeParams(params.collectionId), [params.collectionId] 
+  );
  
   return (
     <div className="collection-page">
