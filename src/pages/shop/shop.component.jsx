@@ -4,7 +4,7 @@ import { Routes, Route } from 'react-router-dom';
 import CollectionsOverview from '../../components/collection-overview/collection-overview.components'
 import CollectionPage from "../collection/collection.component";
 
-const ShopPage = ({ collections }) => {
+const ShopPage = () => {
   return (
     <div className="shop-page">
       <Routes>

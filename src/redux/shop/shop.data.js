@@ -201,10 +201,10 @@ const SHOP_DATA = {
       }
     ]
   },
-  mens: {
+  men: {
     id: 5,
-    title: 'Mens',
-    routeName: 'mens',
+    title: 'Men',
+    routeName: 'men',
     items: [
       {
         id: 30,

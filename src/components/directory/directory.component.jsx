@@ -9,10 +9,11 @@ import "./directory.styles.scss";
 const Directory = ({ sections }) => {
   return (
     <div className="directory-menu">
-      {sections.map(({ imageUrls, id }) => (
+      {sections.map(({ imageUrls, id, linkUrl }) => (
         <MenuItem
           key={id}
           imageUrl={imageUrls}
+          linkUrl={linkUrl}
         />
       ))}
     </div>

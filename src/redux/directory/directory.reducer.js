@@ -25,6 +25,44 @@ const INITIAL_STATE =  {
           id: 4,
           linkUrl: 'shop/womens'
         },
+      ],
+
+      nav:[
+        {
+          title: 'womens',
+          id: 1,
+          linkUrl: 'shop/womens'
+        },
+        {
+          title: 'accessories',
+          id: 2,
+          linkUrl: 'shop/jackets'
+        },
+        {
+          title: 'men',
+          id: 3,
+          linkUrl: 'shop/men'
+        },
+        {
+          title: 'visionary artists',
+          id: 4,
+          linkUrl: 'shop/visionaryartists'
+        },
+        {
+          title: 'free shipping',
+          id: 5,
+          linkUrl: 'shop/freeshipping'
+        },
+        {
+          title: 'best sellers',
+          id: 6,
+          linkUrl: 'shop/bestsellers'
+        },
+        {
+          title: 'blog',
+          id: 7,
+          linkUrl: 'blog'
+        },
       ]
 }
 

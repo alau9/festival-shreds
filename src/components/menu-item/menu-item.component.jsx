@@ -13,7 +13,7 @@ const MenuItem = ({ imageUrl, linkUrl }) => {
     
       <div className="menu-item" style={{
         backgroundImage: `url(${imageUrl})` }}
-        onClick={() => navigate('checkout')}>
+        onClick={() => navigate(linkUrl)}>
          <CustomButton>Shop</CustomButton>
       </div>
 

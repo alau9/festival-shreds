@@ -5,7 +5,7 @@ import { connect } from 'react-redux';
 import CollectionItem from '../../components/collection-item/collection-item.component';
  
 import { selectCollection } from '../../redux/shop/shop.selector';
-import { changeShopParams } from '../../redux/shop/shop.action'
+import { changeShopParams } from '../../redux/shop/shop.actions'
  
 import './collection.styles.scss'
  
