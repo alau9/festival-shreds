@@ -159,45 +159,45 @@ const SHOP_DATA = {
     items: [
       {
         id: 23,
-        name: 'Blue Tanktop',
-        imageUrl: 'https://i.ibb.co/7CQVJNm/blue-tank.png',
-        price: 25
+        name: 'Accordion Boy Crop Tee by Salvia Droid',
+        imageUrl: 'https://cdn.shopify.com/s/files/1/0504/2290/7035/products/accordion-boy-crop-tee-by-salvia-droid-450159.jpg?v=1605485242',
+        price: 39.95
       },
       {
         id: 24,
-        name: 'Floral Blouse',
-        imageUrl: 'https://i.ibb.co/4W2DGKm/floral-blouse.png',
-        price: 20
+        name: "Cry Me A Rainbow Women's Tee by Salvia Droid",
+        imageUrl: 'https://cdn.shopify.com/s/files/1/0504/2290/7035/products/mockup-cda6d1ee.jpg?v=1605485232',
+        price: 44.95
       },
       {
         id: 25,
-        name: 'Floral Dress',
-        imageUrl: 'https://i.ibb.co/KV18Ysr/floral-skirt.png',
-        price: 80
+        name: 'Exist Crop Tee by Salvia Droid',
+        imageUrl: 'https://cdn.shopify.com/s/files/1/0504/2290/7035/products/exist-crop-tee-by-salvia-droid-393362.jpg?v=1605485215',
+        price: 39.95
       },
       {
         id: 26,
-        name: 'Red Dots Dress',
-        imageUrl: 'https://i.ibb.co/N3BN1bh/red-polka-dot-dress.png',
-        price: 80
+        name: 'Cry Me A Rainbow Crop Tee by Salvia Droid',
+        imageUrl: 'https://cdn.shopify.com/s/files/1/0504/2290/7035/products/cry-me-a-rainbow-crop-tee-by-salvia-droid-886951.jpg?v=1605485230',
+        price: 39.95
       },
       {
         id: 27,
-        name: 'Striped Sweater',
-        imageUrl: 'https://i.ibb.co/KmSkMbH/striped-sweater.png',
-        price: 45
+        name: 'Hollow Empty Void Crop Tee by Salvia Droid',
+        imageUrl: 'https://cdn.shopify.com/s/files/1/0504/2290/7035/products/hollow-empty-void-womens-tee-by-salvia-droid-663413.jpg?v=1605485208',
+        price: 39.95
       },
       {
         id: 28,
-        name: 'Yellow Track Suit',
-        imageUrl: 'https://i.ibb.co/v1cvwNf/yellow-track-suit.png',
-        price: 135
+        name: 'Machine Factory Crop Tee by Salvia Droid',
+        imageUrl: 'https://cdn.shopify.com/s/files/1/0504/2290/7035/products/machine-factory-crop-tee-by-salvia-droid-882870.jpg?v=1605485194',
+        price: 39.95
       },
       {
         id: 29,
-        name: 'White Blouse',
-        imageUrl: 'https://i.ibb.co/qBcrsJg/white-vest.png',
-        price: 20
+        name: 'Overclocked Cortex Crop Tee by Salvia Droid',
+        imageUrl: 'https://cdn.shopify.com/s/files/1/0504/2290/7035/products/overclocked-cortex-crop-tee-by-salvia-droid-837569.jpg?v=1605485183',
+        price: 39.95
       }
     ]
   },
@@ -208,39 +208,39 @@ const SHOP_DATA = {
     items: [
       {
         id: 30,
-        name: 'Camo Down Vest',
-        imageUrl: 'https://i.ibb.co/xJS0T3Y/camo-vest.png',
-        price: 325
+        name: "Overclocked Cortex Men's Tee by Salvia Droid",
+        imageUrl: 'https://cdn.shopify.com/s/files/1/0504/2290/7035/products/overclocked-cortex-mens-tee-by-salvia-droid-519544.jpg?v=1605485190',
+        price: 44.95
       },
       {
         id: 31,
-        name: 'Floral T-shirt',
-        imageUrl: 'https://i.ibb.co/qMQ75QZ/floral-shirt.png',
-        price: 20
+        name: "Accordion Boy Men's Tee by Salvia Droid",
+        imageUrl: 'https://cdn.shopify.com/s/files/1/0504/2290/7035/products/accordian-boy-mens-tee-by-salvia-droid-218102.jpg?v=1605485249',
+        price: 44.95
       },
       {
         id: 32,
-        name: 'Black & White Longsleeve',
-        imageUrl: 'https://i.ibb.co/55z32tw/long-sleeve.png',
-        price: 25
+        name: "Cry Me A Rainbow Men's Tee by Salvia Droid",
+        imageUrl: 'https://cdn.shopify.com/s/files/1/0504/2290/7035/products/cry-me-a-rainbow-mens-tee-by-salvia-droid-517170.jpg?v=1605485237',
+        price: 44.95
       },
       {
         id: 33,
-        name: 'Pink T-shirt',
-        imageUrl: 'https://i.ibb.co/RvwnBL8/pink-shirt.png',
-        price: 25
+        name: "Exist Men's Tee by Salvia Droid",
+        imageUrl: 'https://cdn.shopify.com/s/files/1/0504/2290/7035/products/exist-mens-tee-by-salvia-droid-787106.jpg?v=1605485222',
+        price: 44.95
       },
       {
         id: 34,
-        name: 'Jean Long Sleeve',
-        imageUrl: 'https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png',
-        price: 40
+        name: "Hollow Empty Void Men's Tee by Salvia Droid",
+        imageUrl: 'https://cdn.shopify.com/s/files/1/0504/2290/7035/products/hollow-empty-void-mens-tee-by-salvia-droid-239796.jpg?v=1605485212',
+        price: 44.95
       },
       {
         id: 35,
-        name: 'Burgundy T-shirt',
-        imageUrl: 'https://i.ibb.co/mh3VM1f/polka-dot-shirt.png',
-        price: 25
+        name: "Machine Factory Men's Tee by Salvia Droid",
+        imageUrl: 'https://cdn.shopify.com/s/files/1/0504/2290/7035/products/machine-factory-mens-tee-by-salvia-droid-521965.jpg?v=1605485200',
+        price: 44.95
       }
     ]
   }
