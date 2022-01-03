@@ -4,7 +4,7 @@ import ShopActionTypes from './shop.types';
  
 const INITIAL_STATE = {
   collections: SHOP_DATA,
-  params: 'hats',
+  params: 'womens',
 };
  
 const shopReducer = (state = INITIAL_STATE, action) => {

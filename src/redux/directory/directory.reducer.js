@@ -7,10 +7,10 @@ const INITIAL_STATE =  {
           linkUrl: 'shop/womens'
         },
         {
-          title: 'jackets',
+          title: 'accessories',
           imageUrl: 'https://i.ibb.co/gtSHScc/Salvia-Droid-Festival-Shred.png',
           id: 2,
-          linkUrl: 'shop/jackets'
+          linkUrl: 'shop/accessories'
         },
         {
           title: 'sneakers',
@@ -36,7 +36,7 @@ const INITIAL_STATE =  {
         {
           title: 'accessories',
           id: 2,
-          linkUrl: 'shop/jackets'
+          linkUrl: 'shop/accessories'
         },
         {
           title: 'men',

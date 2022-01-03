@@ -12,6 +12,7 @@ import { auth, createUserProfileDocument } from './firebase/firebase.utils'
 import { setCurrentUser } from './redux/user/user.actions'
 import { createStructuredSelector } from 'reselect'
 import CheckoutPage from './pages/checkout/checkout.component';
+import BlogPage from './pages/blog/blog.component';
 
 
 class App extends React.Component {
@@ -50,6 +51,7 @@ class App extends React.Component {
            <Route  exact path='/checkout' element={<CheckoutPage/>} />
            <Route exact path='/signin' element={<SignInAndSignUpPage/>} />
            <Route path="shop/*" element={<ShopPage />} />
+           <Route exact path="blog" element={<BlogPage />} />
          </Routes>
         <Footer />
       </div>

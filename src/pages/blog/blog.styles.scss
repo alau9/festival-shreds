@@ -1,0 +1,21 @@
+.content-container {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 50%;
+
+  .img-container {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+
+    .summer-image {
+      width: 60%;
+      height: 20%;
+    }
+  }
+  .content-conclusion{
+      margin-bottom: 3rem
+  }
+}

@@ -1,8 +1,8 @@
 const SHOP_DATA = {
-  hats: {
+  freeshipping: {
     id: 1,
-    title: 'Hats',
-    routeName: 'hats',
+    title: 'Free Shipping',
+    routeName: 'freeshipping',
     items: [
       {
         id: 1,
@@ -60,10 +60,10 @@ const SHOP_DATA = {
       }
     ]
   },
-  sneakers: {
+  visionaryartists: {
     id: 2,
-    title: 'Sneakers',
-    routeName: 'sneakers',
+    title: 'Visionary Artists',
+    routeName: 'visionaryartists',
     items: [
       {
         id: 10,
@@ -115,10 +115,10 @@ const SHOP_DATA = {
       }
     ]
   },
-  jackets: {
+  accessories: {
     id: 3,
-    title: 'Jackets',
-    routeName: 'jackets',
+    title: 'Accessories',
+    routeName: 'accessories',
     items: [
       {
         id: 18,
@@ -243,7 +243,16 @@ const SHOP_DATA = {
         price: 44.95
       }
     ]
+  },
+  bestsellers: {
+    id: 5,
+    title: 'Best Sellers',
+    routeName: 'bestsellers',
+    items: [
+      
+    ]
   }
+
 };
 
 export default SHOP_DATA;
