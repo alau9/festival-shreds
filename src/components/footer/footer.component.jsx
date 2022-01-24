@@ -5,7 +5,7 @@ import './footer.styles.scss'
 const Footer = () => (
     <div className="footer">
         <div className="footer-banner">
-            <span className="banner-items">FREE DELIVER*</span>
+            <span className="banner-items">FREE DELIVERY*</span>
             <span className="banner-items">HASSLE-FREE RETURNS</span>
             <span className="banner-items">1-604-679-8975</span>
             <span className="banner-items">INFO@FESTIVALSHRED.COM</span>

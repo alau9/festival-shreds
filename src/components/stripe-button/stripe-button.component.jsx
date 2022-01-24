@@ -13,7 +13,7 @@ const StripeCheckoutButton = ({ price }) => {
     return(
         <StripeCheckout 
          label='Pay Now'
-         name='Festival Shreds'
+         name='Festival Shred'
          billingAddress
          shippingAddress
          description= {`Your total is $${price}`}
